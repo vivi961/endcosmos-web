@@ -63,7 +63,7 @@ a{color:inherit}
   position:absolute;inset:0;
   background:
     radial-gradient(60% 60% at 50% 40%, #2a2f7a55 0%, #0a0b1f 55%, #000 100%),
-    url("/assets/hero.jpg");
+    url("/assets/hero.webp");
   background-size: cover;
   background-position: center;
   filter:saturate(1.1) contrast(1.05);
