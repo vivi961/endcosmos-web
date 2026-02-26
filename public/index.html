@@ -4,16 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <!-- Primary SEO -->
   <title>EndCosmos — Next-Gen Metin2 Private Server | Powered by Llunaris</title>
   <meta name="description" content="EndCosmos is a next-generation Metin2 private server powered by Llunaris. Custom systems, cosmic lore, balanced PvP/PvM, and an immersive MMORPG experience." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <link rel="canonical" href="https://endcosmos.com/" />
-
-  <!-- Hreflang (add more if needed) -->
-  <link rel="alternate" href="https://endcosmos.com/" hreflang="en" />
-  <link rel="alternate" href="https://endcosmos.com/es/" hreflang="es" />
-  <link rel="alternate" href="https://endcosmos.com/" hreflang="x-default" />
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="EndCosmos" />
@@ -31,18 +25,14 @@
   <meta name="twitter:description" content="Enter the Cosmos. Next-gen Metin2 private server experience." />
   <meta name="twitter:image" content="https://endcosmos.com/assets/og.jpg" />
 
-  <!-- Favicons -->
+  <!-- Icons -->
   <link rel="icon" href="/assets/favicon.ico" />
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 
-  <!-- Performance hints -->
-  <link rel="preload" as="image" href="/assets/hero.jpg" />
-  <link rel="preload" as="font" href="/assets/fonts/space.woff2" type="font/woff2" crossorigin />
-
-  <!-- Styles -->
+  <!-- Styles (IMPORTANT: absolute path) -->
   <link rel="stylesheet" href="/css/style.css" />
 
-  <!-- Schema.org (Organization + WebSite) -->
+  <!-- Schema.org -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -51,21 +41,12 @@
         "@type":"Organization",
         "name":"EndCosmos",
         "url":"https://endcosmos.com/",
-        "logo":"https://endcosmos.com/assets/logo.png",
-        "sameAs":[
-          "https://discord.gg/REPLACE_ME",
-          "https://www.youtube.com/@REPLACE_ME"
-        ]
+        "logo":"https://endcosmos.com/assets/logo.png"
       },
       {
         "@type":"WebSite",
         "name":"EndCosmos",
-        "url":"https://endcosmos.com/",
-        "potentialAction":{
-          "@type":"SearchAction",
-          "target":"https://endcosmos.com/search?q={search_term_string}",
-          "query-input":"required name=search_term_string"
-        }
+        "url":"https://endcosmos.com/"
       }
     ]
   }
@@ -137,17 +118,6 @@
         </div>
       </div>
     </section>
-
-    <section class="section" aria-labelledby="cta-title">
-      <div class="wrap cta">
-        <h2 id="cta-title">Ready to start?</h2>
-        <p>Join the community and follow development updates.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="/download">Download</a>
-          <a class="btn ghost" href="https://discord.gg/REPLACE_ME" rel="noopener" target="_blank">Join Discord</a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
@@ -169,8 +139,7 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  <!-- JS (IMPORTANT: absolute path) -->
+  <script src="/js/app.js"></script>
 </body>
 </html>
